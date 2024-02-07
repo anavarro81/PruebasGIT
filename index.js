@@ -1,2 +1,7 @@
-console.log('Hola');
+
+const saludar = (nombre) => {
+    return "Hola " + nombre;
+}
+
+console.log(saludar("Antonio"));
 
