@@ -1,7 +1,12 @@
 
 const saludar = (nombre) => {
-    return "Hola " + nombre + "cómo estas? "
+    return "Hola " + nombre + " cómo estas? "
 }
 
-console.log(saludar("Antonio"));
+const despedida = (nombre) => {
+    return "Hasta pronto " + nombre  + " !! ";
+}
 
+
+console.log(saludar("Antonio"));
+console.log(despedida("Juan"));
